@@ -1,1 +1,2 @@
 # EfficientNet-V2
+EfficientNet is a deep learning model architecture designed to achieve higher accuracy with fewer parameters, which could use fewer computational resources than other models. It uniformly scales all aspects (depth, width, and resolution) of the neural network with a compound scaling method to optimize model performance. Since the source code in this paper is implemented with TensorFlow. In this assignment, we first reimplement EficientNetV2-S with Pytorch by ourselves. And then we make some further improvements on it with the flower classification dataset.
