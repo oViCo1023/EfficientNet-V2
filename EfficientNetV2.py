@@ -1,6 +1,6 @@
-import torch.nn as nn
 from torchvision.ops import stochastic_depth
 from functools import partial
+import torch.nn as nn
 
 class SE(nn.Module):
     def __init__(self,
